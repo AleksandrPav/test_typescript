@@ -16,7 +16,7 @@ let notInitialize:undefined;
 notInitialize = undefined;
 
 let callback:Function;
-callback = (a) => { return 100 + a };
+callback = (a:number) => { return 100 + a };
 
 /*====================================*/    
 let anything:any;
@@ -58,7 +58,7 @@ let literal: 'enable' | 'disable';
 /*====================================*/
 
 
-function showMessage(message): void {
+function showMessage(message:string): void {
   console.log(message);
 }
 
